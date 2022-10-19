@@ -21,6 +21,6 @@ class TestSimpleFunctions(object):
         (1, 1)
         ])
     def test_factorial(self, number, expected):
-        '''Test our factorial function'''
+        '''Test our factorial function (new)'''
         answer = factorial(number)
         assert answer == expected
